@@ -1,0 +1,57 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+#banner{
+	background-image:url(../images/slide-1.jpg);
+	height:100vh;
+	background-size:cover;
+	width:90%;
+	margin:auto;
+	
+}
+.container{
+	background-color:rgba(0,0,0,0.5);
+	height:100vh;
+	width:100%;
+}
+.banner-row{
+	display:flex;
+	flex-wrap:wrap;
+	align-content:center;
+	height:100vh;
+	width:80%;
+	margin:auto;
+}
+.content{
+	text-align:center;
+	width:70%;
+	margin:auto;
+	color:#fcfbfa;
+	
+}
+h1{
+	font-family:Krona One;
+}
+h1,p{
+	padding:10px;
+}
+p{
+	font-size:11px;
+}
+.btn{
+	text-align:center;
+	padding:10px;
+	
+}
+button{
+	background-color:#f2190a;
+	padding:7px;
+	border:none;
+	border-radius:5px;
+	color:#fcfbfa;
+	width:10%;
+	font-size:10px;
+	text-transform:capitalize;
+}
